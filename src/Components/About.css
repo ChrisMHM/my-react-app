@@ -1,0 +1,45 @@
+* {
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #870e4f;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    max-width: 700px;
+    padding: 2rem;
+}
+
+img {
+    max-width: 25vw;
+}
+
+.about-name {
+    margin: 5px 0px;
+}
+
+.about-mail,
+.about-linkedin,
+.about-description {
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+.about-mail a,
+.about-linkedin a {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.about-description {
+    padding: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
